@@ -21,9 +21,11 @@ public class KhachSan {
     public Nguoi getNguoi() {
         return nguoi;
     }
+
     public void setNguoi(Nguoi nguoi) {
         this.nguoi = nguoi;
     }
+
     public void nhapThongTinCanQuanLy() {
         Scanner scanner = new Scanner(System.in);
 

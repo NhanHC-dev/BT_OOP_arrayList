@@ -10,7 +10,7 @@ public class Test {
         int n;  // số khách trọ
         KhachSan khachSan;
 
-        // tạo 1 ArrayList lưu thông tin khách trọ
+        // tạo 1 ArrayList lưu thông tin khách trọins
         ArrayList<KhachSan> arrKhachSan = new ArrayList<>();
 
         System.out.println("Nhập số lượng khách trọ: ");

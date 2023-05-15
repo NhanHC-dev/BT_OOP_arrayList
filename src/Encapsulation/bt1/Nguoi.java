@@ -9,14 +9,12 @@ public class Nguoi {
     private String queQuan;
 
     public Nguoi() {
-        super();
     }
 
-    public Nguoi(String hoTen, String queQuan, String soCMND) {
-        super();
+    public Nguoi(String hoTen, String soCMND, String queQuan) {
         this.hoTen = hoTen;
-        this.queQuan = queQuan;
         this.soCMND = soCMND;
+        this.queQuan = queQuan;
     }
 
     public String getSoCMND() {
