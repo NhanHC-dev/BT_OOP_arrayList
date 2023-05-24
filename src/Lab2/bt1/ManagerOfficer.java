@@ -15,8 +15,8 @@ public class ManagerOfficer {
         this.officers.add(officer);
     }
 
-    public List<Officer> searchOfficerByName(String name) {
-        return this.officers.stream().filter(o -> o.getName().contains(name)).collect(Collectors.toList());
+    public ArrayList<Officer> searchOfficerByName(String name) {
+        return (ArrayList<Officer>)this.officers.stream().filter(o -> o.getName().contains(name)).collect(Collectors.toList());
     }
 
     public void showListInforOfficer() {
