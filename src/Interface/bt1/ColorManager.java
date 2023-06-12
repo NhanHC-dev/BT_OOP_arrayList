@@ -1,8 +1,7 @@
-package Cat.exam;
+package bt1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
 
 public class ColorManager {
     ArrayList<String> colorList = new ArrayList<>();
